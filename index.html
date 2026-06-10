@@ -12,3 +12,20 @@
 }
 .btn:hover { background:#0056b3; }
 </style>
+<style>
+    html,body {
+      height:100%;
+      margin:0;
+      background:#000; /* optional fallback color */
+    }
+    /* show only the background PNG */
+    body {
+      background-image: url("mandelbrot.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height:100vh;
+    }
+    /* hide any content */
+    body > * { display:none; }
+  </style>
