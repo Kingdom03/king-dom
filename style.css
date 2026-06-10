@@ -4,3 +4,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+.center-page { min-height: 100vh; /* full viewport / display: flex; flex-direction: column; justify-content: center; / vertical center /
+align-items: center;      / horizontal center /
+text-align: center;
+gap: 1rem;
+position: relative;       / keep z-index above background */ z-index: 1; }
